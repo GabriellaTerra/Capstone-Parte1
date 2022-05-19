@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(Inter/static/Inter-Regular.ttf);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: 212px;
+  height: 70px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+  font-family: 'Inter';
+}
+
+#bold2 {
+  background-color: white;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: 0ch;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+}
+#bold2:hover {
+  outline: ridge red;
+}
+
+.botHeader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #242424;
+  margin: 10px;
+
+  background-color: white;
+  border: 0ch;
+}
+.botHeader:hover {
+  outline: ridge red;
+}
+#divHeader {
+  margin: auto;
+  display: flex;
+  margin-top: 15px;
+  padding-left: 1000px;
+
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  justify-content: space-between;
+  row-gap:5px;
+  column-gap: 15px;
+  margin-top: 0px;
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+  margin: 2px;
+}
+
+.produtosCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 480px;
+  margin-right: 10px;
+}
+
+.produtosCard:hover {
+  outline: ridge red;
+}
+
+h1 {
+  width: 269px;
+  height: 24px;
+  line-height: 24px;
+}
+
+
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #242424;
+}
+
+.precoProduto {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  padding-right: 220px;
+  color: red;
+}
+
+.botAddCar {
+  background-color: white;
+  color: #242424;
+  width: 200px;
+  margin-left: 5px;
+  border: 0ch;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.botAddCar:hover {
+  outline: ridge red;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  min-height: 100vh;
+}
+
+#tituloCarrinho {
+  background-color: #f5f5f5;
+  width: 458px;
+  padding-left: 0px;
+  padding-right: 0px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+}
+
+#tituloCarrinhoDentro {
+  width: 347px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-right: 50px;
+  padding-top: 15px;
+  background-color: red;
+  color: white;
+}
+
+#addItemsCarVaz {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#conteudoCarrinho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 15px;
+  gap: 15px;
+  width: 296px;
+  height: 254px;
+  margin: auto;
+  text-align: center;
+
+  background: grey -0 #f5f5f5;
+}
+
+input {
+  
+  background-color: #F5F5F5;
+
+  display: flex;
+  border: 0ch;
+  width: 296px;
+  height: 50px;
+
+  justify-content: center;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+img {
+  width: 200px;
+  height: 154px;
+}
+
+#nav2 {
+  display: flex;
+padding: 0;
+
+  
+}
+
+#botNav {
+  background-color: red;
+  color: white;
+  width: 150px;
+  height: 53px;
+  font-family: "Inter";
+}
+
+.classeCard {
+  background-color: red;
+  color: white;
+  width:0px;
+  height: 20px;
+  text-align: center;
+  padding-right: 95px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+ 
+
+  
+}

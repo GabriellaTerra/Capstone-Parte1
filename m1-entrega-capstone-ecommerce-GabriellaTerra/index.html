@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="pt-br" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIMBIOTIKA</title>
+    <link rel="shortcut icon" href="icone/cranio.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <script src="database.js"></script>
+    <header>
+      <img id="logo" src="img/logo-simbiotika.jpg" alt="logo-Simbiotika" />
+      <div id="divHeader">
+        <button id="bold2" type="button">Todos</button>
+        <button class="botHeader" type="button">Acessórios</button>
+        <button class="botHeader" type="button">Próteses perna</button>
+        <button class="botHeader" type="button">Próteses mão</button>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <ul>
+          <li class="produtosCard">
+            <img
+              class="imagensCard"
+              src="img/perna-prostética-acrilico.jpg"
+              alt="perna-prostética-acrilico"
+            />
+       <div>
+            <h2 class="classeCard">Próteses</h2>
+            <h1 class="nomeProdutoCard">Prótese de acrílico</h1>
+            </div>
+            <p>
+              Adicione um pouco de estilo ao seu dia-a-dia com modelo feito com
+              detalhes em acrílico...
+            </p>
+            <h2 class="precoProduto">R$ 100,00</h2>
+            <button class="botAddCar" type="button">
+              Adicionar ao carrinho
+            </button>
+          </li>
+          <li class="produtosCard">
+            <img
+              class="imagensCard"
+              src="./img/coleção-de-mãos-bionicas.jpg"
+              alt="braços-bionicos"
+            />
+            <div>
+            <h2 class="classeCard">Próteses</h2>
+            <h1 class="nomeProdutoCard">Braços-bionicos</h1>
+            </div>
+            <p>
+              Modelo feito com design anatomicamente correto e preciso para
+              detalhes finos..
+            </p>
+            <div>
+            <h2 class="precoProduto">R$ 100,00</h2>
+            </div>
+            <button class="botAddCar" type="button">
+              Adicionar ao carrinho
+            </button>
+          </li>
+          <li class="produtosCard">
+            <img
+              class="imagensCard"
+              src="./img/mão-bionica-3Dprint-rosa.jpg"
+              alt="Mão 3D print"
+            />
+            <div>
+            <h2 class="classeCard">Próteses</h2>
+            <h1 class="nomeProdutoCard">Mão 3D print</h1>
+            </div>
+            <p>Produto feito com tecnologia de impressão 3D...</p>
+            <h2 class="precoProduto">R$ 100,00</h2>
+            <button class="botAddCar" type="button">
+              Adicionar ao carrinho
+            </button>
+          </li>
+          <li class="produtosCard">
+            <img
+              class="imagensCard"
+              src="./img/acessorio-perna-para-corrida.jpg"
+              alt="Prótese para corridas"
+            />
+            <div>
+            <h2 class="classeCard"> Acessórios</h2>
+            <h1 class="nomeProdutoCard"> Prótese para corridas</h1>
+           </div>
+            <p>
+              Modelo feito para optimização em esportes, como corridas etc..
+            </p>
+            <h2 class="precoProduto">R$ 100,00</h2>
+            <button class="botAddCar" type="button">
+              Adicionar ao carrinho
+            </button>
+          </li>
+          <li class="produtosCard">
+            <img
+              class="imagensCard"
+              src="./img/acessorio-extra-dedo-3DPRINT.jpg"
+              alt="Prótese dedo extra"
+            />
+            <div>
+            <h2 class="classeCard">Acessórios</h2>
+            <h1 class="nomeProdutoCard">Prótese dedo extra</h1>
+            </div>
+            <p>
+              Item com tecnologia de impressão 3D, designado para extensão e
+              optimização física..
+            </p>
+            <h2 class="precoProduto">R$ 100,00</h2>
+            <button class="botAddCar" type="button">
+              Adicionar ao carrinho
+            </button>
+          </li>
+          <li class="produtosCard">
+            <img
+              class="imagensCard"
+              src="./img/knee-cap-heart-shape.jpg"
+              alt="Prótese joelho "
+            />
+            <div>
+            <h2 class="classeCard">Acessórios</h2>
+            <h1 class="nomeProdutoCard">Prótese joelho</h1>
+            </div>
+            <p>
+              Adicione um pouco de estilo ao seu dia-a-dia com modelo feito com
+              detalhes na área do joelho...
+            </p>
+            <h2 class="precoProduto">R$ 100,00</h2>
+            <button class="botAddCar" type="button">
+              Adicionar ao carrinho
+            </button>
+          </li>
+        </ul>
+      </section>
+
+      <aside>
+        <nav id="nav2">
+          <input
+            type="text"
+            name="nome"
+            value=""
+            placeholder="Pesquisar por item"
+          />
+          <button id="botNav" type="button">Pesquisar</button>
+        </nav>
+
+        <div id="tituloCarrinho">
+          <h2 id="tituloCarrinhoDentro">Carrinho de compras</h2>
+          <div id="conteudoCarrinho">
+            <h1 id="conteudoCarrinhoDentro">Carrinho Vázio</h1>
+            <p id="addItemsCarVaz">adicione items</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
